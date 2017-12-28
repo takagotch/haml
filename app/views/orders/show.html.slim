@@ -1,0 +1,21 @@
+p#notice = notice
+
+p
+  strong Name:
+  = @order.name
+
+p
+  strong Description:
+  = @order.price
+
+p
+  strong Price:
+  = @order.price
+
+p 
+  strong Discontinued:
+  = @order.discontinued
+
+= link_to 'Edit', edit_product_path(@order)
+'|
+= link_to 'Back', orders_path
