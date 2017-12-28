@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+  <title>Slim_Sample</title>
+  <%= stylesheet_link_tag 'application', media: 'all',
+	                  'data-turbolinks-track' => true%>
+  <%= javascript_include_tag 'application',
+	                     'data-turbolinks-tack' => true %>
+  <%= csrf_meta_tags %>
+</head>
+
+<header id="header">
+<h1 class="title logo">Slim Sample</h1>
+</header>
+
+<%= yeild %>
+
+
+</body>
+</html>
+
